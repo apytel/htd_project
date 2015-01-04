@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   <meta charset="UTF-8">
+   <title>Koniara - portal dla miłośników koni/Kącik wiedzy/Opieka</title>
+   <link rel="stylesheet" type="text/css" href="reset_css.css"> 
+   <link rel="stylesheet" type="text/css" href="koniara.css">
+   <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script> 
+  </head> 
+   <body>
+   <!-- Logo + grafika + logowanie -->
+    <div class="horseshoes">
+    </div>
+     <div class="pre-container">
+      <form class="log-in">
+       <table>
+        <tr>
+         <td class="label"><label class="login" for="username"> Login: </label></td>
+         <td class="data"><input type="text" id="username" name="username"></td>
+        </tr>
+        <tr>
+         <td class="label"><label class="login" for="authentificationPassword"> Hasło: </label></td>
+         <td class="data"><input type="password" id="authentificationPassword" name="authentificationPassword"></td>
+        </tr>
+        <tr>
+         <td class="register"><a href="#">Zarejestruj się</a></td>
+         <td class="login-submit"><input type="submit" value="Zaloguj"></td>
+        </tr>
+       </table>
+      </form>
+      <a class="logo" title="Koniara.pl" href="index.html">
+       <img src="logo.png" class="koniara" alt="Koniara.pl" />
+      </a>
+      <div>
+        <form class="search" name="wyszukiwarka" method="post" lang="pl">
+         <label class="label wyszukiwarka" for="searchArea">Wyszukiwarka</label>
+         <input class="fieldSearch" id="searchArea" type="text" value="Szukaj" placeholder="Szukaj..."/>
+         <input class="search-submit" type="submit" value=""/>
+        </form>
+       </div>
+     </div>
+     <!-- Główny div -->
+       <div class="share_buttons">
+      <a href="#" class="share l-facebook" title="Facebook"></a>
+      <a href="#" class="share twitter" title="Twitter"></a>
+      <a href="#" class="share googleplus" title="Google+"></a>
+     </div> 
+     <div class="maincontainer">
+      <div class="menu">
+      <!-- Widoczne menu -->
+       <div class="visible_menu">
+       <nav>
+        <ul>
+         <li><a class="more more_kacikWiedzy" href="koniara_kacik_wiedzy_zrozumiec_konia.html">KĄCIK WIEDZY</a></li>
+         <li><a href="koniara_aktualnosci.html">AKTUALNOŚCI</a></li>
+         <li><a href="koniara_strefa_koniarza.html">STREFA KONIARZA</a></li>
+         <li><a class="more more_konskaRozrywka" href="koniara_konska_rozrywka_ksiazki_i_filmy.html">KOŃSKA ROZRYWKA</a></li>
+         <li><a class="margin_szkolki" href="koniara_szkolki_jezdzieckie.html">SZKÓŁKI JEŹDZIECKIE</a></li>
+        </ul>
+       </nav>
+       </div>
+       <!-- Płachta -->
+       <div class="invisible_menu">
+      </div>
+        <div class="kacik_wiedzy sheet">
+         <ul>
+          <li><a href="koniara_kacik_wiedzy_zrozumiec_konia.html">Zrozumieć konia</a></li>
+          <li><a href="koniara_kacik_wiedzy_praktyka_jezdziecka.html">Praktyka jeździecka</a></li>
+          <li><a href="koniara_kacik_wiedzy_rekreacja.html">Rekreacja</a></li>
+          <li><a href="koniara_kacik_wiedzy_opieka.html">Opieka</a></li>
+          <li><a href="koniara_kacik_wiedzy_anatomia.html">Anatomia</a></li>
+          <li><a href="koniara_kacik_wiedzy_masci_i_rasy.html">Maści i rasy</a></li>
+          <li><a href="koniara_kacik_wiedzy_horsemanship.html">Horsemanship</a></li>
+          <li><a href="koniara_kacik_wiedzy_wasze_porady.html">Wasze porady</a></li>
+         </ul>
+        </div>
+       <div class="konska_rozrywka sheet">
+        <ul>
+         <li><a href="koniara_konska_rozrywka_ksiazki_i_filmy.html">Książki i filmy</a></li>
+         <li><a href="koniara_konska_rozrywka_cytaty.html">Cytaty</a></li>
+         <li><a href="koniara_konska_rozrywka_wasze_prace.html">Wasze prace</a></li>
+        </ul>
+       </div>
+      </div>
+     <!-- Content -->
+     <div class="content">
+      <div class="menu-right menu_kacik">
+       <ul>
+        <li><span>KĄCIK WIEDZY</span></li>
+        <li><a id="opieka-zrozumiec_konia" href="koniara_kacik_wiedzy_zrozumiec_konia.html">Zrozumieć konia</a></li>
+        <li><a id="opieka-praktyka_jezdziecka" href="koniara_kacik_wiedzy_praktyka_jezdziecka.html">Praktyka jeździecka</a></li>
+        <li><a id="opieka-rekreacja" href="koniara_kacik_wiedzy_rekreacja.html">Rekreacja</a></li>
+        <li><a class="underline" id="opieka-opieka" href="koniara_kacik_wiedzy_opieka.html">Opieka</a></li>         
+        <li><a id="opieka-anatomia" href="koniara_kacik_wiedzy_anatomia.html">Anatomia</a></li>
+        <li><a id="opieka-masci_i_rasy" href="koniara_kacik_wiedzy_masci_i_rasy.html">Maści i rasy</a></li>
+        <li><a id="opieka-horsemanship" href="koniara_kacik_wiedzy_horsemanship.html">Horsemanship</a></li>
+        <li><a id="opieka-wasze_porady" href="koniara_kacik_wiedzy_wasze_porady.html">Wasze porady</a></li>
+       </ul>
+      </div>
+      <div class="container-left1">
+	   <p class="path"> <a href="index.html"> Strona główna </a> >> <a href="koniara_kacik_wiedzy_praktyka_jezdziecka"> Kącik wiedzy </a> >> <a href="koniara_kacik_wiedzy_opieka"> Opieka </a></p>
+       <h1 class="pageTitle"> Opieka - artykuły </h1>
+       <article class="horseCare"> 
+        <h2>Szczepienie koni </h2>
+        <p>"Kiedy szczepić konia pierwszy raz, co to jest grypa i tężec - czyli kilka podstawowych wiadomości o szczepieniu konia.</p>
+        <p>Najczęstszą profilaktyką zdrowotną wykonywaną u koni jest szczepienie. W naszym kraju nie ma żadnego przepisu ani ustawy która mówi o obowiązkowym szczepieniu tych zwierząt. Najpopularniejszymi chorobami przed którymi chroni się konie są : grypa, wirus herpes EHV 1 i EHV 4, tężec oraz wścieklizna. Zanim jednak przedstawimy po krótce opis każdej z chorób warto wspomnieć kiedy należy wykonać pierwsze, drugie i trzecie szczepienie obowiązkowe oraz szczepienia przypominające. </p>
+        <p>GRYPA : I szczepienie 4 miesiąc, II szczepienie 4-6 tyg po I szczepieniu, III szczepienie 5-7m-cy po II szczepieniu. Szczepienie przypominające : Co 6 miesięcy</p>
+        <p>HERPES : I szczepienie 4 miesiąc, II szczepienie 3-4 m-ce po I szczepieniu. Szczepienie przypominające co 6-8 miesięcy.</p>
+        <p>TĘŻEC : I szczepienie 5 miesiąc, II szczepienie 6-8 tygodni po I szczepieniu, III szczepienie 12 m-cy po II szczepieniu. Szczepienie przypominające co 2 lata.</p>
+        <p>WŚCIEKLIZNA : I szczepienie 6 miesiąc. Szczepienie przypominające co 12 miesięcy.</p>
+        <br>
+        <p>GRYPA: Końską grypę wywołują dwa podtypy wirusa końskiej grypy typu A: podtyp 1 ( H7N7) i podtyp 2 (H3N8). Do zarażenia grypą dochodzi najczęściej przez kontakt z innym chorym koniem np. przez wdychane powietrze szczególnie w czasie kaszlu. Możliwe jest również zarażenie przez pasze, sprzęty lub narzędzia lekarskie. Choroba ujawnia się najczęściej kilka dni po zarażeniu, i objawia się wysoką gorączką, suchym bolesnym kaszlem, wypływem z nosa który początkową ma formę surowiczą (później ma formę śluzową i śluzową-ropną). Wiele koni w czasie grypy staje się osowiała i apatyczna. Jeżeli nie zapewni się koniowi odpowiednich warunków zoohigienicznych może dojść do pogłębienia choroby a nawet śmierci.
+        </p>
+        <p>HERPES: Jednostka chorobowa określana mianem rhinopneumonitis jest pojęciem zbiorczym obejmującym różne wysoce zakaźne choroby wywoływane przez herpeswirusa EHV 1 i EHV4 . Oba te wirusy są ze sobą blisko spokrewnione i przyczyniają się do schorzeń układu oddechowego. Zakażenie wirusem EHV1 mogą dodatkowo wywoływać poronienia u klaczy, zgony okołoporodowe źrebiąt a także choroby układu nerwowego. Choroba objawia się najczęściej zmniejszonym apetytem lub jego brakiem, wysoką gorączką (nawet do 41 C), wypływem surowiczym, śluzowym bądź śluzowo-ropnym oraz kaszlem. Nie leczona może wywołać śmierć.
+        </p>
+        <p>TĘŻEC: Choroba zakaźna występująca u wielu gatunków zwierząt, jednak szczególnie niebezpieczna jest dla koni. Wywoływana przez laseczkę tężca ( Clostridium tetatni) czyli bakterię namnażającą się w środowisku beztlenowym (stąd szczególnie niebezpieczne są głębokie rany) Laseczka tężca wytwarza przetrwalniki, które są bardzo oporne na warunki środowiska i w glebie mogą przetrwać przez wiele miesięcy. Clostridium tetani po dostaniu się do organizmu zwierzęcia przez zranioną skórę intensywnie się namnaża, uwalniając przy tym toksyny z których najgroźniejsza zwana jest tetanospazmina. To właśnie ona odpowiedzialna jest za większość objawów towarzyszących tężcowi. Tężec objawia się już po ok 48h od skaleczenia i wówczas rokowanie jest niepomyślne, jeżeli jednak pojawi się po 3-4 dniach lub
+        więcej szanse są nieco większe. Jednymz  pierwszych objawów jest skurcz trzeciej powieki, pocenie się i narastający niepokój. Dodatkowo dochodzi do zesztywnienia mięśni, szczudłowatości postawy, trąbkowatości i rozdęcia nozdrzy ora do szczękościsku. Często również dochodzi do porażenia pęcherza moczowego i prostnicy wskutek czego następuje zatrzymanie moczu i kału.
+        </p>
+        <p>Należy również pamiętać aby szczepić tylko i wyłącznie konie zdrowe." </p>
+        <span> źródło: http://horse24.pl/opieka/zdrowie/art,86,co-powinnismy-wiedziec-o-szczepieniu-koni.html </span>
+       </article>
+       <article class="horseCare">
+        <h2 class="articleTitle">"Niezbędniki końskiej kosmetyczki - kilka słów o preparatach pozwalających łatwiejszą i dokładniejszą pielęgnację konia.</h2>
+        <p>(...) Preparaty do pielęgnacji konia nie tylko utrzymują go w perfekcyjnej czystości ale skracają czas czyszczenia czyniąc je bardziej przyjemnym. Co więc powinna zawierać typowa podstawowa „walizka” z kosmetykami?
+        </p>
+        <p><b>Szampon </b><br>
+        Niezbędny w każdej końskiej kosmetyczce, pozwala na dokładne umycie konia z kurzu, potu i innych zabrudzeń. Zawsze należy wybierać szampony przeznaczone dla koni, zwłaszcza jeżeli nie chcemy doprowadzić do niepotrzebnej wysypki czy łupieżu. Obecnie na rynku dostępne są również specjalne szampony które nie pozbawiają konia naturalnej powłoki ochronnej a wręcz ją odbudowują. Najczęściej szampony stosuje się na mokrą sierść ale dostępne są również szampony suche którymi zwilża się konia a następnie wyczesuje szczotką. Ceny zaczynają się już od 20zł.
+        </p>
+        <p><b>Preparaty do pielęgnacji grzywy, ogona i sierści</b><br>
+        Preparaty typu Sheen to kosmetyki nabłyszczające sierść, grzywę i ogon oraz ułatwiające ich rozczesywanie. Często skracają prace pielęgnacyjne nawet o 80%, a efekt utrzymuje się przez kilka najbliższych dni. Większość preparatów w swoim składzie zawiera związki mineralne i witaminy które dodatkowo odżywiają i regenerują włosy. Najczęściej stosuje się je spryskując grzywę, ogon i sierść konia z odpowiedniej odległości, czeka do wchłonięcia a następnie rozczesuje. Ceny zaczynają się już od ok. 25zł
+        </p>
+        <p><b>Chusteczki nabłyszczające</b><br>
+        Idealne do pielęgnacji końskiego pyska, świetnie usuwają kurz, proch, pył oraz inne zabrudzenia. Bezpieczne dla końskiej skóry.
+        </p>
+        <p><b>Preparaty do kopyt</b><br>
+        Jeżeli nasz koń nie ma poważniejszych problemów z kopytami jednak kowal zasugerował skłonności do przesuszania bądź gnicia warto zakupić preparaty zapobiegające. W końskiej kosmetyczce nie powinno zabraknąć również olejów i smarów ochronnych które odżywiają kopyto i zabezpieczają przez działaniem czynników zewnętrznych.
+        </p>
+        <span> źródło:http://horse24.pl/opieka/pielegnacja/art,96,co-powinna-zawierac-konska-kosmetyczka.html </span>
+       </article>
+      </div>
+     </div>
+    </div>
+     <!-- Footer -->
+     <footer>
+       <div class="menu2">
+         <nav>
+          <ul>
+           <li><a id="home" href="index.html">Home</a></li>
+           <li><a href="koniara_kacik_wiedzy_praktyka_jezdziecka.html">Kącik wiedzy </a></li>
+           <li><a href="koniara_aktualnosci.html">Aktualności </a></li>
+           <li><a href="koniara_strefa_koniarza.html">Strefa koniarza </a></li>
+           <li><a href="koniara_konska_rozrywka_ksiazki_i_filmy.html">Końska rozrywka </a></li>
+           <li><a href="koniara_szkolki_jezdzieckie.html">Szkółki jeździeckie </a></li>
+          </ul>
+         </nav>
+        </div> 
+        <p class="copyright">
+          Copyright 2015 Agnieszka Pytel
+          wszelkie prawa zastrzeżone
+        </p>
+      </footer> 
+    <script>
+     
+    </script>
+  </body>
+ </html>

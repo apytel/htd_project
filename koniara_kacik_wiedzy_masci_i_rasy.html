@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   <meta charset="UTF-8">
+   <title>Koniara - portal dla miłośników koni/Kącik wiedzy/Maści i rasy</title>
+   <link rel="stylesheet" type="text/css" href="reset_css.css"> 
+   <link rel="stylesheet" type="text/css" href="koniara.css">
+   <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script> 
+  </head> 
+   <body>
+   <!-- Logo + grafika + logowanie -->
+    <div class="horseshoes">
+    </div>
+     <div class="pre-container">
+      <form class="log-in">
+       <table>
+        <tr>
+         <td class="label"><label class="login" for="username"> Login: </label></td>
+         <td class="data"><input type="text" id="username" name="username"></td>
+        </tr>
+        <tr>
+         <td class="label"><label class="login" for="authentificationPassword"> Hasło: </label></td>
+         <td class="data"><input type="password" id="authentificationPassword" name="authentificationPassword"></td>
+        </tr>
+        <tr>
+         <td class="register"><a href="#">Zarejestruj się</a></td>
+         <td class="login-submit"><input type="submit" value="Zaloguj"></td>
+        </tr>
+       </table>
+      </form>
+      <a class="logo" title="Koniara.pl" href="index.html">
+       <img src="logo.png" class="koniara" alt="Koniara.pl" />
+      </a>
+      <div>
+        <form class="search" name="wyszukiwarka" method="post" lang="pl">
+         <label class="label wyszukiwarka" for="searchArea">Wyszukiwarka</label>
+         <input class="fieldSearch" id="searchArea" type="text" value="Szukaj" placeholder="Szukaj..."/>
+         <input class="search-submit" type="submit" value=""/>
+        </form>
+       </div>
+     </div>
+     <!-- Główny div -->
+       <div class="share_buttons">
+      <a href="#" class="share l-facebook" title="Facebook"></a>
+      <a href="#" class="share twitter" title="Twitter"></a>
+      <a href="#" class="share googleplus" title="Google+"></a>
+     </div> 
+     <div class="maincontainer">
+      <div class="menu">
+      <!-- Widoczne menu -->
+       <div class="visible_menu">
+       <nav>
+        <ul>
+         <li><a class="more more_kacikWiedzy" href="koniara_kacik_wiedzy_zrozumiec_konia.html">KĄCIK WIEDZY</a></li>
+         <li><a href="koniara_aktualnosci.html">AKTUALNOŚCI</a></li>
+         <li><a href="koniara_strefa_koniarza.html">STREFA KONIARZA</a></li>
+         <li><a class="more more_konskaRozrywka" href="koniara_konska_rozrywka_ksiazki_i_filmy.html">KOŃSKA ROZRYWKA</a></li>
+         <li><a class="margin_szkolki" href="koniara_szkolki_jezdzieckie.html">SZKÓŁKI JEŹDZIECKIE</a></li>
+        </ul>
+       </nav>
+       </div>
+       <!-- Płachta -->
+       <div class="invisible_menu">
+      </div>
+        <div class="kacik_wiedzy sheet">
+         <ul>
+          <li><a href="koniara_kacik_wiedzy_zrozumiec_konia.html">Zrozumieć konia</a></li>
+          <li><a href="koniara_kacik_wiedzy_praktyka_jezdziecka.html">Praktyka jeździecka</a></li>
+          <li><a href="koniara_kacik_wiedzy_rekreacja.html">Rekreacja</a></li>
+          <li><a href="koniara_kacik_wiedzy_opieka.html">Opieka</a></li>
+          <li><a href="koniara_kacik_wiedzy_anatomia.html">Anatomia</a></li>
+          <li><a href="koniara_kacik_wiedzy_masci_i_rasy.html">Maści i rasy</a></li>
+          <li><a href="koniara_kacik_wiedzy_horsemanship.html">Horsemanship</a></li>
+          <li><a href="koniara_kacik_wiedzy_wasze_porady.html">Wasze porady</a></li>
+         </ul>
+        </div>
+       <div class="konska_rozrywka sheet">
+        <ul>
+         <li><a href="koniara_konska_rozrywka_ksiazki_i_filmy.html">Książki i filmy</a></li>
+         <li><a href="koniara_konska_rozrywka_cytaty.html">Cytaty</a></li>
+         <li><a href="koniara_konska_rozrywka_wasze_prace.html">Wasze prace</a></li>
+        </ul>
+       </div>
+      </div>
+     <!-- Content -->
+     <div class="content">
+      <div class="menu-right menu_kacik">
+       <ul>
+        <li><span>KĄCIK WIEDZY</span></li>
+        <li><a id="masci_i_rasy-zrozumiec_konia" href="koniara_kacik_wiedzy_zrozumiec_konia.html">Zrozumieć konia</a></li>
+        <li><a id="masci_i_rasy-praktyka_jezdziecka" href="koniara_kacik_wiedzy_praktyka_jezdziecka.html">Praktyka jeździecka</a></li>
+        <li><a id="masci_i_rasy-rekreacja" href="koniara_kacik_wiedzy_rekreacja.html">Rekreacja</a></li>
+        <li><a id="masci_i_rasy-opieka" href="koniara_kacik_wiedzy_opieka.html">Opieka</a></li>         
+        <li><a id="masci_i_rasy-anatomia" href="koniara_kacik_wiedzy_anatomia.html">Anatomia</a></li>
+        <li><a class="underline" id="masci_i_rasy-masci_i_rasy" href="koniara_kacik_wiedzy_masci_i_rasy.html">Maści i rasy</a></li>
+        <li><a id="masci_i_rasy-horsemanship" href="koniara_kacik_wiedzy_horsemanship.html">Horsemanship</a></li>
+        <li><a id="masci_i_rasy-wasze_porady" href="koniara_kacik_wiedzy_wasze_porady.html">Wasze porady</a></li>
+       </ul>
+      </div>
+      <div class="container-left1">
+	   <p class="path"> <a href="index.html"> Strona główna </a> >> <a href="koniara_kacik_wiedzy_praktyka_jezdziecka"> Kącik wiedzy </a> >> <a href="koniara_kacik_wiedzy_masci_i_rasy"> Maści i rasy </a> </p>
+       <div class="masci">
+        <h1 class="pageTitle"> Umaszczenie koni </h1>
+        <table class="horseColor">
+         <tr>
+          <th class="paintName"> Maść </th>
+          <th class="characteristics"> Charakterystyka </th>
+         </tr>
+         <tr>
+          <td class="paintName"> kara </td>
+          <td class="characteristics"> całkowicie czarna </td>
+         </tr>
+         <tr>
+          <td class="paintName"> gniada </td>
+          <td class="characteristics">  sierść brązowa od jasnej do brunatnej i prawie czarnej, grzywa, ogon i dolne odcinki kończyn – czarne </td>
+         </tr>
+          <tr>
+          <td class="paintName"> skarogniada </td>
+          <td class="characteristics"> sierść ciemna, prawie czarna. Mieszanka włosów czarnych i brązowych, może występować jaśniejsze "podpalanie"; grzywa, ogon i dolne partie kończyn czarne </td>
+         </tr>
+         <tr>
+          <td class="paintName"> kasztanowata </td>
+          <td class="characteristics"> żółtaworuda lub rudobrązowa sierść, grzywa i ogon w tym samym odcieniu lub jaśniejsze, kończyny bez czarnego podpalania; występują odmiany na kończynach i głowie </td>
+         </tr>
+         <tr>
+          <td class="paintName"> ciemnokasztanowata </td>
+          <td class="characteristics"> często występuje u koni ras amerykańskich, koń ma ciemnobrązową sierść wraz z grzywą i ogonem, które mogą być nieco ciemniejszego odcienia </td>
+         </tr>
+         <tr>
+          <td class="paintName"> bułana </td>
+          <td class="characteristics">  żółtawa lub popielatobura sierść z czarnymi kończynami, w ogonie i grzywie włosy czarne zmieszane z maścistymi </td>
+         </tr>
+         <tr>
+          <td class="paintName"> izabelowata </td>
+          <td class="characteristics"> barwa sierści żółtawa z jasnymi kończynami, grzywa i ogon jaśniejsze, możliwe białe odmiany </td>
+         </tr>
+         <tr>
+          <td class="paintName"> siwa </td>
+          <td class="characteristics"> występuje tylko wtedy, gdy jedno z rodziców było tej maści; po urodzeniu koń ma którąś z maści podstawowych i z wiekiem siwieje; do czasu pełnego osiwienia, sierść składa się z włosów białych i maścistych. To czy koń będzie siwy, da się sprawdzić u źrebaka – ma wtedy białe włoski na powiekach </td>
+         </tr>
+         <tr>
+          <td class="paintName"> biała ("albino") </td>
+          <td class="characteristics"> konie urodzone jako białe mają jasnobrązowe lub jasnoniebieskie oczy, różową niepigmentowaną skórę i jasne kopyta, natomiast czerwone oczy, jak u prawdziwych albinosów, nie występują </td>
+         </tr>
+         <tr>
+          <td class="paintName"> myszata </td>
+          <td class="characteristics"> sierść jednolicie szara, a grzywa i ogon czarne </td>
+         </tr>
+        </table>
+        <span> Żródło: http://pl.wikipedia.org/wiki/Umaszczenie_koni</span>
+       </div>
+       <div class="rasy">
+        <h1 class="pageTitle"> Rasy koni </h1>
+        <div class="horseBreedList">
+        <p class="goracokrwiste"> Konie gorącokrwiste: </p>
+        <ul class="horseBreeds">
+         <li><a href="koniara_kacik_wiedzy_masci_i_rasy_american_quarter_horse.html">American quarter horse</a></li>
+         <li><a href="koniara_kacik_wiedzy_masci_i_rasy-kon_andaluzyjski.html">Koń andaluzyjski</a></li>
+         <li><a href="#">Koń angloarabski</a></li>
+         <li><a href="#">Appaloosa</a></li>
+         <li><a href="#">Koń arabski</a></li>
+         <li><a href="#">Koń ardeński</a></li>
+         <li><a href="#">Koń berberyjski</a></li>
+         <li><a href="#">Koń belgijski</a></li>
+         <li><a href="#">Koń buloński</a></li>
+         <li><a href="#">Koń bretoński</a></li>
+         <li><a href="#">Carmague</a></li>
+         <li><a href="#">Cleveland bay</a></li>
+         <li><a href="#">Clydesdale</a></li>
+         <li><a href="#">Criollo</a></li>
+         <li><a href="#">Kuc Dales</a></li>
+         <li><a href="#">Dartmoor</a></li>
+         <li><a href="#">Holenderski koń gorącokrwisty</a></li>
+         <li><a href="#">Kuc exmoor</a></li>
+         <li><a href="#">Falabella</a></li>
+         <li><a href="#">Kuc fell</a></li>
+         <li><a href="#">Koń fryzyjski</a></li>
+         <li><a href="#">Hackney</a></li>
+         <li><a href="#">Haflinger</a></li>
+         <li><a href="#">Koń hanowerski</a></li>
+         <li><a href="#">Kuc highland</a></li>
+         <li><a href="#">Holsteiner</a></li>
+         <li><a href="#">Kuc islandzki</a></li>
+         <li><a href="#">Koń irlandzki</a></li>
+         <li><a href="#">Irlandzki koń sportowy</a></li>
+         <li><a href="#">Knabstrup</a></li>
+         <li><a href="#">Koń lipicański</a></li>
+         <li><a href="#">Koń luzytański</a></li>
+         <li><a href="#">Morgan</a></li>
+         <li><a href="#">Mustang</a></li>
+         <li><a href="#">Kuc new forest</a></li>
+         <li><a href="#">Koń fiordzki</a></li>
+         <li><a href="#">Koń oldenburski</a></li>
+         <li><a href="#">Palomino</a></li>
+         <li><a href="#">Paso fino/paso peruwiański</a></li>
+         <li><a href="#">Perszeron</a></li>
+         <li><a href="#">Koń Przewalskiego</a></li>
+         <li><a href="#">Kuc szetlandzki</a></li>
+         <li><a href="#">Shire</a></li>
+         <li><a href="#">Koń pełnej krwi angielskiej</a></li>
+         <li><a href="#">Koń trakeński</a></li>
+         <li><a href="#">Kuc walijski</a></li>
+        </ul>
+        </div>
+        <span> Źródło: "Konie" Jon Stroud </span>
+       </div>
+      </div>
+     </div>
+    </div>
+     <!-- Footer -->
+     <footer>
+       <div class="menu2">
+         <nav>
+          <ul>
+           <li><a id="home" href="index.html">Home</a></li>
+           <li><a href="koniara_kacik_wiedzy_praktyka_jezdziecka.html">Kącik wiedzy </a></li>
+           <li><a href="koniara_aktualnosci.html">Aktualności </a></li>
+           <li><a href="koniara_strefa_koniarza.html">Strefa koniarza </a></li>
+           <li><a href="koniara_konska_rozrywka_ksiazki_i_filmy.html">Końska rozrywka </a></li>
+           <li><a href="koniara_szkolki_jezdzieckie.html">Szkółki jeździeckie </a></li>
+          </ul>
+         </nav>
+        </div> 
+        <p class="copyright">
+          Copyright 2015 Agnieszka Pytel
+          wszelkie prawa zastrzeżone
+        </p>
+      </footer> 
+    <script>
+     
+    </script>
+  </body>
+ </html>

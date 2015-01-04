@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   <meta charset="UTF-8">
+   <title>Koniara - portal dla miłośników koni/Końska rozrywka/Książki i filmy</title>
+   <link rel="stylesheet" type="text/css" href="reset_css.css"> 
+   <link rel="stylesheet" type="text/css" href="koniara.css">
+   <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script> 
+  </head> 
+   <body>
+   <!-- Logo + grafika + logowanie -->
+    <div class="horseshoes">
+    </div>
+     <div class="pre-container">
+      <form class="log-in">
+       <table>
+        <tr>
+         <td class="label"><label class="login" for="username"> Login: </label></td>
+         <td class="data"><input type="text" id="username" name="username"></td>
+        </tr>
+        <tr>
+         <td class="label"><label class="login" for="authentificationPassword"> Hasło: </label></td>
+         <td class="data"><input type="password" id="authentificationPassword" name="authentificationPassword"></td>
+        </tr>
+        <tr>
+         <td class="register"><a href="#">Zarejestruj się</a></td>
+         <td class="login-submit"><input type="submit" value="Zaloguj"></td>
+        </tr>
+       </table>
+      </form>
+      <a class="logo" title="Koniara.pl" href="index.html">
+       <img src="logo.png" class="koniara" alt="Koniara.pl" />
+      </a>
+      <div>
+        <form class="search" name="wyszukiwarka" method="post" lang="pl">
+         <label class="label wyszukiwarka" for="searchArea">Wyszukiwarka</label>
+         <input class="fieldSearch" id="searchArea" type="text" value="Szukaj" placeholder="Szukaj..."/>
+         <input class="search-submit" type="submit" value=""/>
+        </form>
+       </div>
+     </div>
+     <!-- Główny div -->
+       <div class="share_buttons">
+      <a href="#" class="share l-facebook" title="Facebook"></a>
+      <a href="#" class="share twitter" title="Twitter"></a>
+      <a href="#" class="share googleplus" title="Google+"></a>
+     </div> 
+     <div class="maincontainer">
+      <div class="menu">
+      <!-- Widoczne menu -->
+       <div class="visible_menu">
+       <nav>
+        <ul>
+         <li><a class="more more_kacikWiedzy" href="koniara_kacik_wiedzy_zrozumiec_konia.html">KĄCIK WIEDZY</a></li>
+         <li><a href="koniara_aktualnosci.html">AKTUALNOŚCI</a></li>
+         <li><a href="koniara_strefa_koniarza.html">STREFA KONIARZA</a></li>
+         <li><a class="more more_konskaRozrywka" href="koniara_konska_rozrywka_ksiazki_i_filmy.html">KOŃSKA ROZRYWKA</a></li>
+         <li><a class="margin_szkolki" href="koniara_szkolki_jezdzieckie.html">SZKÓŁKI JEŹDZIECKIE</a></li>
+        </ul>
+       </nav>
+       </div>
+       <!-- Płachta -->
+       <div class="invisible_menu">
+      </div>
+        <div class="kacik_wiedzy sheet">
+         <ul>
+          <li><a href="koniara_kacik_wiedzy_zrozumiec_konia.html">Zrozumieć konia</a></li>
+          <li><a href="koniara_kacik_wiedzy_praktyka_jezdziecka.html">Praktyka jeździecka</a></li>
+          <li><a href="koniara_kacik_wiedzy_rekreacja.html">Rekreacja</a></li>
+          <li><a href="koniara_kacik_wiedzy_opieka.html">Opieka</a></li>
+          <li><a href="koniara_kacik_wiedzy_anatomia.html">Anatomia</a></li>
+          <li><a href="koniara_kacik_wiedzy_masci_i_rasy.html">Maści i rasy</a></li>
+          <li><a href="koniara_kacik_wiedzy_horsemanship.html">Horsemanship</a></li>
+          <li><a href="koniara_kacik_wiedzy_wasze_porady.html">Wasze porady</a></li>
+         </ul>
+        </div>
+       <div class="konska_rozrywka sheet">
+        <ul>
+         <li><a href="koniara_konska_rozrywka_ksiazki_i_filmy.html">Książki i filmy</a></li>
+         <li><a href="koniara_konska_rozrywka_cytaty.html">Cytaty</a></li>
+         <li><a href="koniara_konska_rozrywka_wasze_prace.html">Wasze prace</a></li>
+        </ul>
+       </div>
+      </div>
+     <!-- Content -->
+     <div class="content">
+      <div class="menu-right menu_kacik">
+       <ul>
+        <li><span>KOŃSKA ROZRYWKA</span></li>
+        <li><a class="underline" id="ksiazki_i_filmy" href="koniara_konska_rozrywka_ksiazki_i_filmy.html">Książki i filmy</a></li>
+        <li><a id="cytaty" href="koniara_konska_rozrywka_cytaty.html">Cytaty</a></li>       
+        <li><a id="wasze_prace" href="koniara_konska_rozrywka_wasze_prace.html">Wasze prace</a></li>
+       </ul>
+      </div>
+      <div class="container-left1">
+	   <p class="path"> <a href="index.html"> Strona główna </a> >> <a href="koniara_konska_rozrywka_ksiazki_i_filmy"> Końska rozrywka </a> >> <a href="koniara_konska_rozrywka_ksiazki_i_filmy"> Książki i filmy </a></p>
+       <article class="movies list">
+        <div>
+        <h1> Końskie książki </h1>
+        <ol class="lubimyCzytac">
+         <li><a href="http://lubimyczytac.pl/ksiazka/36777/powroty"> Lauren Brooke <i>"Heartland"</i>(seria)</a>
+          <div class="personalize">
+           <a href="#" class="share favorites" title="Ulubione"></a>
+           <a href="#" class="share FBlittle" title="Udostępnij na FB"></a>
+          </div>
+         </li>
+         <li><a href="http://lubimyczytac.pl/ksiazka/52017/sowa-w-kominie"> Joanna Waliszewska <i>"Sowa w kominie"</i></a>
+          <div class="personalize">
+           <a href="#" class="share favorites" title="Ulubione"></a>
+           <a href="#" class="share FBlittle" title="Udostępnij na FB"></a>
+          </div>
+         </li>
+         <li><a href="http://lubimyczytac.pl/ksiazka/197216/czerwony-kon"> Patricia Leitch <i>"Czerwony koń"</i></a>
+          <div class="personalize">
+           <a href="#" class="share favorites" title="Ulubione"></a>
+           <a href="#" class="share FBlittle" title="Udostępnij na FB"></a>
+          </div>
+         </li>
+         <li><a href="http://lubimyczytac.pl/ksiazka/103446/kon-na-recepte"> Agata Widzowska-Pasiak <i>"Koń na receptę"</i></a>
+          <div class="personalize">
+           <a href="#" class="share favorites" title="Ulubione"></a>
+           <a href="#" class="share FBlittle" title="Udostępnij na FB"></a>
+          </div>
+         </li>
+         <li><a href="http://lubimyczytac.pl/ksiazka/8652/moj-kary"> Anna Sewell <i>"Mój kary"</i></a>
+          <div class="personalize">
+           <a href="#" class="share favorites" title="Ulubione"></a>
+           <a href="#" class="share FBlittle" title="Udostępnij na FB"></a>
+          </div>
+         </li>
+         <li><a href="http://lubimyczytac.pl/ksiazka/78706/dziewczyna-i-carino"> Marek Nowakowski <i>"Dziewczyna i Carino"</i></a>
+          <div class="personalize">
+           <a href="#" class="share favorites" title="Ulubione"></a>
+           <a href="#" class="share FBlittle" title="Udostępnij na FB"></a>
+          </div>
+         </li>
+         <li><a href="http://lubimyczytac.pl/ksiazka/52009/kon-zwany-cieniem"> Alison Hart <i>"Koń zwany cieniem"</i></a>
+          <div class="personalize">
+           <a href="#" class="share favorites" title="Ulubione"></a>
+           <a href="#" class="share FBlittle" title="Udostępnij na FB"></a>
+          </div>
+         </li>
+         <li><a href="http://lubimyczytac.pl/ksiazka/59853/lysek-z-pokladu-idy"> Gustaw Morcinek <i>"Łysek z pokładu Idy"</i></a>
+          <div class="personalize">
+           <a href="#" class="share favorites" title="Ulubione"></a>
+           <a href="#" class="share FBlittle" title="Udostępnij na FB"></a>
+          </div>
+         </li>
+         <li class="lastOnList"><a href="http://lubimyczytac.pl/ksiazka/50976/zaklinacz-koni"> Nicholas Evans <i>"Zaklinacz koni"</i></a>
+          <div class="personalize">
+           <a href="#" class="share favorites" title="Ulubione"></a>
+           <a href="#" class="share FBlittle" title="Udostępnij na FB"></a>
+          </div>
+         </li>
+        </ol>
+        <textarea class="addToList"> Dodaj swoją propozycję </textarea><input class="addList" type="submit" value="Dodaj"></input>
+        </div>
+       </article>
+       <article class="books list">
+        <div>
+        <h1> Końskie filmy </h1>
+        <ol class="filmweb"> 
+         <li><a href="http://www.filmweb.pl/film/Czarny+ksi%C4%85%C5%BC%C4%99-1994-4211"> "Czarny Książę"</a>
+          <div class="personalize">
+           <a href="#" class="share favorites" title="Ulubione"></a>
+           <a href="#" class="share FBlittle" title="Udostępnij na FB"></a>
+          </div>
+         </li>
+         <li><a href="http://www.filmweb.pl/film/Shergar-1999-34877"> "Shergar"</a>
+          <div class="personalize">
+           <a href="#" class="share favorites" title="Ulubione"></a>
+           <a href="#" class="share FBlittle" title="Udostępnij na FB"></a>
+          </div>
+         </li>
+         <li><a href="http://www.filmweb.pl/film/Czas+wojny-2011-554556"> "Czas wojny"</a>
+          <div class="personalize">
+           <a href="#" class="share favorites" title="Ulubione"></a>
+           <a href="#" class="share FBlittle" title="Udostępnij na FB"></a>
+          </div>
+         </li>
+         <li><a href="http://www.filmweb.pl/film/Zaklinacz+koni-1998-204"> "Zaklinacz koni"</a>
+          <div class="personalize">
+           <a href="#" class="share favorites" title="Ulubione"></a>
+           <a href="#" class="share FBlittle" title="Udostępnij na FB"></a>
+          </div>
+         </li>
+         <li><a href="http://www.filmweb.pl/Flicka"> "Flicka"</a>
+          <div class="personalize">
+           <a href="#" class="share favorites" title="Ulubione"></a>
+           <a href="#" class="share FBlittle" title="Udostępnij na FB"></a>
+          </div>
+         </li>
+         <li><a href="http://www.filmweb.pl/Hidalgo.Ocean.Ognia"> "Hidalgo - ocean ognia"</a>
+          <div class="personalize">
+           <a href="#" class="share favorites" title="Ulubione"></a>
+           <a href="#" class="share FBlittle" title="Udostępnij na FB"></a>
+          </div>
+         </li>
+         <li><a href="http://www.filmweb.pl/film/Skok+po+marzenia-2007-348582"> "Skok po marzenia"</a>
+          <div class="personalize">
+           <a href="#" class="share favorites" title="Ulubione"></a>
+           <a href="#" class="share FBlittle" title="Udostępnij na FB"></a>
+          </div>
+         </li>
+         <li><a href="http://www.filmweb.pl/film/Virginia-2002-108660"> "Virginia"</a>
+          <div class="personalize">
+           <a href="#" class="share favorites" title="Ulubione"></a>
+           <a href="#" class="share FBlittle" title="Udostępnij na FB"></a>
+          </div>
+         </li>
+         <li><a href="http://www.filmweb.pl/film/Cwa%C5%82-1995-643"> "Cwał"</a>
+          <div class="personalize">
+           <a href="#" class="share favorites" title="Ulubione"></a>
+           <a href="#" class="share FBlittle" title="Udostępnij na FB"></a>
+          </div>
+         </li>
+         <li><a href="http://www.filmweb.pl/film/Cudowny+ko%C5%84-1983-32016"> "Phar Lap"</a>
+          <div class="personalize">
+           <a href="#" class="share favorites" title="Ulubione"></a>
+           <a href="#" class="share FBlittle" title="Udostępnij na FB"></a>
+          </div>
+         </li>
+         <li><a href="http://www.filmweb.pl/film/Niezwyci%C4%99%C5%BCony+Secretariat-2010-526405"> "Niezwyciężony Secretariat"</a>
+          <div class="personalize">
+           <a href="#" class="share favorites" title="Ulubione"></a>
+           <a href="#" class="share FBlittle" title="Udostępnij na FB"></a>
+          </div>
+         </li>
+         <li class="lastOnList"><a href="http://www.filmweb.pl/Niepokonany.Seabiscuit"> "Niepokonany Seabiscuit"</a>
+          <div class="personalize">
+           <a href="#" class="share favorites" title="Ulubione"></a>
+           <a href="#" class="share FBlittle" title="Udostępnij na FB"></a>
+          </div>
+         </li>
+        </ol>
+        <textarea class="addToList"> Dodaj swoją propozycję </textarea><input class="addList" type="submit" value="Dodaj"></input>
+        </div>
+       </article>
+      </div>
+     </div>
+    </div>
+     <!-- Footer -->
+     <footer>
+       <div class="menu2">
+         <nav>
+          <ul>
+           <li><a id="home" href="index.html">Home</a></li>
+           <li><a href="koniara_kacik_wiedzy_praktyka_jezdziecka.html">Kącik wiedzy </a></li>
+           <li><a href="koniara_aktualnosci.html">Aktualności </a></li>
+           <li><a href="koniara_strefa_koniarza.html">Strefa koniarza </a></li>
+           <li><a href="koniara_konska_rozrywka_ksiazki_i_filmy.html">Końska rozrywka </a></li>
+           <li><a href="koniara_szkolki_jezdzieckie.html">Szkółki jeździeckie </a></li>
+          </ul>
+         </nav>
+        </div> 
+        <p class="copyright">
+          Copyright 2015 Agnieszka Pytel
+          wszelkie prawa zastrzeżone
+        </p>
+      </footer> 
+    <script>
+     
+    </script>
+  </body>
+ </html>
